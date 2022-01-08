@@ -38,11 +38,11 @@ try:
             
         # if chunk size met, export audio then create new chunk
         elif(len(piRendered) % chunkSize == 0):
-            name =  "piRap" + str(total) + ".wav"
+            saveFilename =  "./output/ " + "piRap" + str(total) + ".wav"
                         
-            song.export(name, format="wav")
+            song.export(saveFilename, format="wav")
                         
-            print("Saved file: " + name)
+            print("Saved file: " + saveFilename)
                         
             song = digits[char]
             piRendered = char
@@ -64,5 +64,5 @@ except:
 
 
 
-song.export(".\output\piRapFail.wav", format="wav")
+song.export("./output/piRapFail.wav", format="wav")
 t.sleep(5)
