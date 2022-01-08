@@ -1,5 +1,5 @@
 # PiRapGenerator
-Make anyone rap the digits of pi
+Make anyone rap the digits of pi (sample files are of Ted Nivison)
 
 # Installation
 
