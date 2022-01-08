@@ -14,7 +14,7 @@ To cancel the render early, use CTRL+C to interrupt the program. This will then 
 The chunk size can be changed, however a larger size may cause the program to run slower
 
 # Info & Warnings
-No additional compression is done by default so each chunk will be the combined file size of each induvidual part<br>
-Currently the final chunk will be named as if it failed.<br>
-You may be limited by memory which is the cause of an 'Argument out of range' error.<br>
-Combine.py is currently very basic and will process all WAVs in the output folder/the scripts running folder. All WAVs that have been made by Combine.py must be deleted before it is run again.<br>
+- No additional compression is done by default so each chunk will be the combined file size of each induvidual part<br>
+- Currently the final chunk will be named as if it failed.<br>
+- You may be limited by memory which is the cause of an 'Argument out of range' error.<br>
+- Combine.py is currently very basic and will process all WAVs in the output folder/the scripts running folder. All WAVs that have been made by Combine.py must be deleted before it is run again.<br>
