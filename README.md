@@ -13,7 +13,8 @@ Run the script using terminal/cmd as it runs roughly 2x faster than in IDLE Shel
 To cancel the render early, use CTRL+C to interrupt the program. This will then save the current file's progress.<br>
 The chunk size can be changed, however a larger size may cause the program to run slower
 
-# Info
+# Info & Warnings
 No additional compression is done by default so each chunk will be the combined file size of each induvidual part<br>
 Currently the final chunk will be named as if it failed.<br>
 You may be limited by memory which is the cause of an 'Argument out of range' error.<br>
+Combine.py is currently very basic and will process all WAVs in the output folder/the scripts running folder. All WAVs that have been made by Combine.py must be deleted before it is run again.<br>
