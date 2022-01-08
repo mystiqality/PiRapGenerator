@@ -9,16 +9,16 @@ total = 0
 chunkSize = 1000
 piTxtName = "pi250k.txt"
 
-pi0 = AudioSegment.from_wav("pi0.wav")
-pi1 = AudioSegment.from_wav("pi1.wav")
-pi2 = AudioSegment.from_wav("pi2.wav")
-pi3 = AudioSegment.from_wav("pi3.wav")
-pi4 = AudioSegment.from_wav("pi4.wav")
-pi5 = AudioSegment.from_wav("pi5.wav")
-pi6 = AudioSegment.from_wav("pi6.wav")
-pi7 = AudioSegment.from_wav("pi7.wav")
-pi8 = AudioSegment.from_wav("pi8.wav")
-pi9 = AudioSegment.from_wav("pi9.wav")
+pi0 = AudioSegment.from_wav("./digits/pi0.wav")
+pi1 = AudioSegment.from_wav("./digits/pi1.wav")
+pi2 = AudioSegment.from_wav("./digits/pi2.wav")
+pi3 = AudioSegment.from_wav("./digits/pi3.wav")
+pi4 = AudioSegment.from_wav("./digits/pi4.wav")
+pi5 = AudioSegment.from_wav("./digits/pi5.wav")
+pi6 = AudioSegment.from_wav("./digits/pi6.wav")
+pi7 = AudioSegment.from_wav("./digits/pi7.wav")
+pi8 = AudioSegment.from_wav("./digits/pi8.wav")
+pi9 = AudioSegment.from_wav("./digits/pi9.wav")
 
 ## END ##
 
