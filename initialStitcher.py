@@ -64,5 +64,5 @@ except:
 
 
 
-song.export("piRapFail.wav", format="wav")
+song.export(".\output\piRapFail.wav", format="wav")
 t.sleep(5)
